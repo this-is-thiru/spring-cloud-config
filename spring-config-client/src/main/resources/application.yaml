@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-config-client
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  cloud:
+    config:
+      label: test
